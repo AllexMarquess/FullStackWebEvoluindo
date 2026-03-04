@@ -1,0 +1,52 @@
+
+/*
+.caixa{
+    background-color: #e5e5e5;
+    width: 300px;
+    height: 150px;
+    margin: 0.3em;
+    padding: 5px;
+}
+
+.esquerda{
+    float: left;
+}
+
+.direita{
+    float: right;
+}
+*/
+
+#principal{
+    border: 2px solid red;
+    width: 920px;
+    margin: 0 auto;
+}
+
+#conteudo{
+    
+    width: 600px;
+    float: left;
+}
+
+
+#lateral{
+    
+    width: 300px;
+    float: right;
+}
+
+#rodape{
+    width: 920px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.marcacoes{
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    margin: 2px 8px;
+}
+
+
