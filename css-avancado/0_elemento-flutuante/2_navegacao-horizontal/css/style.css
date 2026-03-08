@@ -1,0 +1,28 @@
+#menu ul {
+    list-style: none;
+    padding: 0;
+    width: 720px;
+    background-color: #24252a;
+    border: 1px solid red;
+}
+
+#menu ul::after{
+    content:"" ;
+    clear: both;
+    display: table;
+}
+
+#menu li {
+    display: block;
+    padding: 0.5em 1.5em;
+    color: white;
+    text-decoration: none;
+    float: left;
+    
+}
+
+#menu li:hover{
+    padding-left: 2.5em;
+    color: rgb(244, 242, 242);
+    background: #f99200 url("../img/seta.png") no-repeat 1.5em center;
+}
