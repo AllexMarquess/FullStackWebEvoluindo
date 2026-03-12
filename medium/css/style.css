@@ -1,0 +1,25 @@
+/**************************************************************************
+Estrutura / layout
+*/
+
+
+
+/*****************************************************************************
+tipografia
+*/
+
+body {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cabecalho {
+    background-color: #c5e3fe;
+    border-bottom: 1px solid black;
+}
+
+.container {
+    width: 1145px;
+    margin: 0 auto;
+    padding: 1.4rem 0;
+}
