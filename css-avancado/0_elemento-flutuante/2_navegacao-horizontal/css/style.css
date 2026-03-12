@@ -21,8 +21,10 @@
     
 }
 
-#menu li:hover{
-    padding-left: 2.5em;
-    color: rgb(244, 242, 242);
-    background: #f99200 url("../img/seta.png") no-repeat 1.5em center;
+#menu li a:hover{
+   background-color: #0582ac;
+}
+
+#menu li a:active{
+    background-color: #885000;
 }
