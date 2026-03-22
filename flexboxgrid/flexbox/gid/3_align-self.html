@@ -10,18 +10,19 @@
         }
 
         .container-flex {
-            width: 350px;
-            height: 300px;
+            width: 250px;
+            height: 200px;
             border: 4px solid red;
             display: flex;
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            flex-wrap: wrap;
-            align-content: center;
+            align-items: center;
+
         }
 
         .container-flex > div {
+            font-size: 2rem;
             border: 4px solid white;
             color: white;
             padding: 4px;
@@ -31,9 +32,16 @@
         .coluna {
             flex-direction: column;
         }
-        h1 {
+
+        .item {
+            align-self: stretch;
+        }
+
+        h1,h2 {
             color: aqua;
         }
+
+
     </style>
 </head>
 <body>
@@ -42,29 +50,29 @@
     <h2>row</h2>
     <div class="container-flex">
         <div>01</div>
-        <div>02</div>
+        <div class="item">02</div>
         <div>03</div>
-        <div>04</div>
+        <!--<div>04</div>
         <div>05</div>
         <div>06</div>
         <div>07</div>
         <div>08</div>
         <div>09</div>
-        <div>10</div>
+        <div>10</div> -->
     </div>
 
-    <h2>colum</h2>
+    <h2>column</h2>
     <div class="container-flex coluna">
         <div>01</div>
-        <div>02</div>
+        <div class="item">02</div>
         <div>03</div>
-        <div>04</div>
+       <!-- <div>04</div>
         <div>05</div>
         <div>06</div>
         <div>07</div>
         <div>08</div>
         <div>09</div>
-        <div>10</div> 
+        <div>10</div> -->
     </div>
 </body>
 </html>
